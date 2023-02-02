@@ -10,6 +10,17 @@
     border-right: 1px solid #eee;
 }
 
+.look-at-this-testing-thing {
+    width: 550px;
+    height: 24px;
+    background-image: url(https://i.imgur.com/SFTlrxF.png);
+    margin: auto;
+    background-size: 547px;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
 .instagram-window-light-mode {
     width: 490px;
     height: auto;
