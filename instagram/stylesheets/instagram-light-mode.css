@@ -1,0 +1,160 @@
+
+.instagram-tab-light-mode {
+    width: 550px;
+    height: 24px;
+    background-image: url(https://i.imgur.com/SFTlrxF.png);
+    margin: auto;
+    background-size: 547px;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.instagram-window-light-mode {
+    width: 490px;
+    height: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    margin: auto;
+    font-family: Montserrat;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.instagram-top-icon-light-mode {
+    width:150px;
+    height:150px;
+}
+
+.instagram-top-icon-light-mode img {
+    width: 122x;
+    border-radius: 100%;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border: 2px solid #eee;
+}
+
+.instagram-top-icon-story { 
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom left, #ffffff, #464646);
+    position: relative;
+    top: -2px;
+    left: 10px;
+}
+
+.instagram-hightlight-light-mode {
+    width:55px;
+    height:55px;
+}
+
+.instagram-hightlight-light-mode img {
+    width: 55px;
+    border-radius: 100%;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    border: 1px solid #eee;
+}
+
+.instagram-story-light-mode { 
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom left, #cccccc, #fdfdfd);
+    position: relative;
+    top: -2px;
+}
+
+.instagram-hightlight-text {
+    width:57px;
+    height:12px;
+    position: relative;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.instagram-story-light-mode { 
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom left, #cccccc, #fdfdfd);
+    position: relative;
+    top: -2px;
+    left: 23px;
+}
+
+.instagram-hightlight-text {
+    width:57px;
+    height:12px;
+    position: relative;
+    left: 24px;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.instagram-top-description {
+    width:324px;
+    height:150px;
+    position: relative;
+    left: 25px;
+}
+
+.instagram-follow-button {
+    width: 255px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.instagram-follow-button img {
+    width: 255px;
+    height: auto;
+    align-self: center;
+}
+
+
+.instagram-username {
+    font-family: montserrat;
+    font-size: 20px;
+}
+
+.instagram-stats {
+    font-family: montserrat;
+    font-size: 13px;
+    margin-top: 5px
+}
+
+
+.instagram-name {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.instagram-bio {
+    font-size: 13px;
+    position: relative;
+}
+
+.profile-handle {
+    display: inline-flex;
+}
+
+.profile-handle img {
+    width: 473px;
+    height: auto;
+    align-self: center;
+    margin-left: 3px;
+}
+
+.instagram-picture {
+    width:155px;
+    height:155px;
+}
+
+.instagram-picture img {
+    width: 155px;
+}
