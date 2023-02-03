@@ -1,5 +1,5 @@
 
-.instagram-tab-light-mode {
+.instagram-tab {
     width: 550px;
     height: 24px;
     background-image: url(https://i.imgur.com/SFTlrxF.png);
@@ -10,7 +10,7 @@
     border-right: 1px solid #eee;
 }
 
-.instagram-window-light-mode {
+.instagram-window {
     width: 490px;
     height: auto;
     padding: 30px;
@@ -22,12 +22,12 @@
     border-right: 1px solid #eee;
 }
 
-.instagram-top-icon-light-mode {
+.instagram-top-icon {
     width:150px;
     height:150px;
 }
 
-.instagram-top-icon-light-mode img {
+.instagram-top-icon img {
     width: 122x;
     border-radius: 100%;
     position: relative;
@@ -46,12 +46,12 @@
     left: 10px;
 }
 
-.instagram-hightlight-light-mode {
+.instagram-hightlight {
     width:55px;
     height:55px;
 }
 
-.instagram-hightlight-light-mode img {
+.instagram-hightlight img {
     width: 55px;
     border-radius: 100%;
     position: relative;
@@ -60,7 +60,7 @@
     border: 1px solid #eee;
 }
 
-.instagram-story-light-mode { 
+.instagram-story { 
     width: 62px;
     height: 62px;
     border-radius: 100%;
@@ -73,25 +73,6 @@
     width:57px;
     height:12px;
     position: relative;
-    text-align: center;
-    font-family: Montserrat;
-}
-
-.instagram-story-light-mode { 
-    width: 62px;
-    height: 62px;
-    border-radius: 100%;
-    background-image: linear-gradient(to bottom left, #cccccc, #fdfdfd);
-    position: relative;
-    top: -2px;
-    left: 23px;
-}
-
-.instagram-hightlight-text {
-    width:57px;
-    height:12px;
-    position: relative;
-    left: 24px;
     text-align: center;
     font-family: Montserrat;
 }
