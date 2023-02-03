@@ -59,18 +59,80 @@
 
     <TABLE>
         <TD>
-            <div class="instagram-picture"> <img src="https://i92.servimg.com/u/f92/20/11/38/15/tumblr23.jpg"></div>
-        </TD>
-
-        <TD>
-            <div class="instagram-picture"><img src="https://i92.servimg.com/u/f92/20/11/38/15/tumblr16.jpg"></div>
-        </TD>
-
-        <TD>
-            <div class="instagram-picture"><img src="https://i92.servimg.com/u/f92/20/11/38/15/tumblr15.jpg"></div>
+            <center>
+                <div id="rinstaplateprofile">
+                    <div class="rheader">
+                        <div class="rposts"><div class="rpost"><img src="https://i92.servimg.com/u/f92/20/11/38/15/tumblr23.jpg"><div class="rnotes"><div><likes>45345</likes><comments>21</comments></div></div></div><div class="rpost"><img src="https://i92.servimg.com/u/f92/20/11/38/15/tumblr16.jpg"><div class="rnotes"><div><likes>ANTAL_LIKES</likes><comments>ANTAL_KOMMENTARE</comments></div></div></div><div class="rpost"><img src="https://i92.servimg.com/u/f92/20/11/38/15/tumblr15.jpg"><div class="rnotes"><div><likes>ANTAL_LIKES</likes><comments>ANTAL_KOMMENTARE</comments></div></div></div></div>
+                    </div>
+                </div>
+            </center>
         </TD>
     </TABLE>
 </div>
 
 [/dohtml]
+
+<style>
+    #rinstaplateprofile .rposts {
+      position: relative;
+    }
+    
+    #rinstaplateprofile .rpost {
+      width: 150px;
+      height: 150px;
+      display: inline-block;
+      margin: 3px;
+      position: relative;
+    }
+    
+    #rinstaplateprofile .rpost img {
+      width: 100%;
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    #rinstaplateprofile .rnotes {
+      width: 100%;
+      height: 100%;
+      background: #0000004f;
+      position: absolute;
+      top: 0;
+      opacity: 0;
+      transition: all .2s ease-in-out;
+    }
+    
+    #rinstaplateprofile .rpost:hover .rnotes {
+      opacity: 1;
+    }
+    
+    #rinstaplateprofile .rpost .rnotes div {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+    }
+    
+    #rinstaplateprofile .rnotes likes::before {
+      content: "";
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      background: url(https://i.imgur.com/dEtiwSf.png) center/cover;
+      filter: invert(1);
+      margin: 0 4px -2px 0;
+    }
+    
+    #rinstaplateprofile .rnotes comments::before {
+      content: "";
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      background: url(https://i.imgur.com/2osxMxo.png) center/cover;
+      filter: invert(1);
+      margin: 0 0 -8px 10px;
+    }
+</style>
 
