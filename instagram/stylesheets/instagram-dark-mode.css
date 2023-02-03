@@ -5,21 +5,21 @@
     background-image: url(https://i.imgur.com/SFTlrxF.png);
     margin: auto;
     background-size: 547px;
-    border-left: 1px solid #eee;
-    border-top: 1px solid #eee;
-    border-right: 1px solid #eee;
+    border-left: 1px solid rgb(17, 17, 17);
+    border-top: 1px solid rgb(209, 209, 209);
+    border-right: 1px solid rgb(17, 17, 17);
 }
 
 .instagram-window {
     width: 490px;
     height: auto;
     padding: 30px;
-    background-color: #ffffff;
-    margin: auto;
+    background-color: #000000; margin: auto;
     font-family: Montserrat;
-    border-left: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    border-right: 1px solid #eee;
+    border-left: 1px solid rgb(17, 17, 17);
+    border-bottom: 1px solid rgb(17, 17, 17);
+    border-right: 1px solid rgb(17, 17, 17);
+    color: rgb(17, 17, 17);
 }
 
 .instagram-top-icon {
@@ -33,14 +33,14 @@
     position: relative;
     top: 5px;
     left: 5px;
-    border: 2px solid #eee;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .instagram-top-icon-story { 
     width: 140px;
     height: 140px;
     border-radius: 100%;
-    background-image: linear-gradient(to bottom left, #ffffff, #464646);
+    background-image: linear-gradient(to bottom left, #cccccc, #464646);
     position: relative;
     top: -2px;
     left: 10px;
@@ -57,14 +57,14 @@
     position: relative;
     top: 2px;
     left: 2px;
-    border: 1px solid #eee;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .instagram-story { 
     width: 62px;
     height: 62px;
     border-radius: 100%;
-    background-image: linear-gradient(to bottom left, #cccccc, #fdfdfd);
+    background-image: linear-gradient(to bottom left, #cccccc, #464646);
     position: relative;
     top: -2px;
 }
