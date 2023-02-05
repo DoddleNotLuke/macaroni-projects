@@ -23,11 +23,6 @@
     color: rgb(17, 17, 17);
 }
 
-.instagram-top-icon {
-    width:150px;
-    height:150px;
-}
-
 .instagram-top-icon img {
     width: 122x;
     border-radius: 100%;
@@ -45,11 +40,6 @@
     position: relative;
     top: -2px;
     left: 10px;
-}
-
-.instagram-hightlight {
-    width:55px;
-    height:55px;
 }
 
 .instagram-hightlight img {
