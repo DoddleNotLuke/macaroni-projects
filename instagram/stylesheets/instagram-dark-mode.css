@@ -59,3 +59,29 @@
     position: relative;
     top: -2px;
 }
+
+.instagram-top-description {
+    width:324px;
+    height:150px;
+    position: relative;
+    left: 25px;
+    color: white;
+}
+
+
+.instagram-hightlight-text {
+    width:57px;
+    height:12px;
+    position: relative;
+    text-align: center;
+    font-family: Montserrat;
+    color: white;
+    font-size: 10px;
+}
+
+.instagram-name {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}

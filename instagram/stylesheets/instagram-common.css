@@ -8,21 +8,6 @@
     height:55px;
 }
 
-.instagram-hightlight-text {
-    width:57px;
-    height:12px;
-    position: relative;
-    text-align: center;
-    font-family: Montserrat;
-}
-
-.instagram-top-description {
-    width:324px;
-    height:150px;
-    position: relative;
-    left: 25px;
-}
-
 .instagram-follow-button {
     width: 255px;
     margin-top: 5px;
@@ -108,12 +93,6 @@
     filter: invert(1);
     margin: 0 0 -8px 10px;
   }
-
-.instagram-name {
-    margin-top: 5px;
-    font-weight: bold;
-    font-size: 14px;
-}
 
 .instagram-bio {
     font-size: 13px;
